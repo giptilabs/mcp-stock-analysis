@@ -1,0 +1,25 @@
+{
+  "name": "mcp-stock-analysis",
+  "version": "1.0.0",
+  "description": "MCP server for Indian stock market using yfinance",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "mcp-stock-analysis": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "prepare": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "files": [
+    "dist",
+    "fetch.py"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.0.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
