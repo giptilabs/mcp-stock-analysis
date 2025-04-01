@@ -1,4 +1,4 @@
-# MCP Stock Analysis Server
+# MCP Stock Analysis Server by Akshay Bavkar
 
 This is an MCP server that provides access to real-time and historical Indian stock data using the Yahoo Finance API. It allows stock data retrieval to be used as context by local LLMs via Claude Desktop, Cursor, and other MCP-compatible agents.
 
